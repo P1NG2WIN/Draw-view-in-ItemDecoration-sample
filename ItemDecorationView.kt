@@ -11,7 +11,6 @@ import com.google.android.material.textview.MaterialTextView
 
 class HeaderDecoration(parent: RecyclerView): RecyclerView.ItemDecoration() {
 
-//    private var header: View? = null
     private val header: MaterialTextView
 
     init {
