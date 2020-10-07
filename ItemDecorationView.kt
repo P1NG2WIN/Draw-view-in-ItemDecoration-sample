@@ -23,7 +23,6 @@ class HeaderDecoration(parent: RecyclerView): RecyclerView.ItemDecoration() {
 
     override fun onDraw(canvas: Canvas, parent: RecyclerView, state: RecyclerView.State) {
         super.onDraw(canvas, parent, state)
-        // layout basically just gets drawn on the reserved space on top of the first view
         val lp = header.layoutParams as ViewGroup.MarginLayoutParams
 
         header.layout(
